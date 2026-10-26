@@ -1,0 +1,73 @@
+{
+  "alpha": 0.05,
+  "p1": 0.05,
+  "lift": 0.1,
+  "p2": 0.05500000000000001,
+  "n_per_arm": 31231,
+  "n_total": 62462,
+  "demo": {
+    "x1": 1642,
+    "x2": 1683,
+    "z": 0.731,
+    "p": 0.465,
+    "diff_pp": 0.131,
+    "ci_pp": [
+      -0.221,
+      0.483
+    ],
+    "significant": false
+  },
+  "aa_false_positive": 4.98,
+  "power_simulated": 80.09,
+  "peeking": {
+    "fp_once": 4.99,
+    "fp_daily_peek_30d": 28.12,
+    "inflation": 5.6,
+    "fp_by_check_freq": {
+      "只在结束看1次": 4.99,
+      "每2天看1次": 8.22,
+      "每5天看1次": 14.19,
+      "每10天看1次": 19.27,
+      "每30天看1次": 28.12
+    }
+  },
+  "multitest": {
+    "m": 5,
+    "fwer_uncorrected": 22.56,
+    "fwer_bonferroni": 4.86,
+    "theory_uncorrected": 22.62
+  },
+  "cuped": {
+    "rho": 0.6,
+    "n_per_arm": 10000,
+    "effect_sigma": 0.028,
+    "var_reduction": 36.0,
+    "power_raw_same_n": 50.7,
+    "power_cuped_same_n": 71.4,
+    "n_needed_ratio": 64.0
+  },
+  "simpson": {
+    "new_user": [
+      10.0,
+      10.5
+    ],
+    "old_user": [
+      2.0,
+      2.17
+    ],
+    "aggregate": [
+      9.2,
+      3.0
+    ]
+  },
+  "business": {
+    "lift_point": 0.131,
+    "monthly_gain": 105024.0,
+    "monthly_gain_ci": [
+      -176669.0,
+      386717.0
+    ],
+    "arpu": 40.0,
+    "mau": 2000000
+  }
+}
